@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  margin: 0;
+  padding: 20px 24px;
+}
+
+nav p {
+  margin: 2px 0;
+  font-size: 16px;
+}
+
+nav a {
+  color: #5b2fd8;
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 220px;
+  margin-left: 560px;
+  max-width: 600px;
+}
+
+.intro p {
+  margin: 2px 0;
+  font-size: 16px;
+}
+
+.demo {
+  margin-top: 40px;
+}
+
+.demo h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.demo p {
+  font-size: 16px;
+  margin: 4px 0 20px 0;
+}
+
+#clickMeBtn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#clickMeBtn:hover {
+  background-color: #333;
+}
+
+.output-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 16px;
+  font-size: 15px;
+  min-height: 20px;
+  max-width: 700px;
+}
+
+@media (max-width: 900px) {
+  main {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+}
